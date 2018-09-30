@@ -110,47 +110,43 @@ a.contacts__phone {
 }
 
 
-.menu__item {
-	display: inline-block;
-	position: relative;
-}
-
-
 .menu__link {
 	color: #ec1e79;
 	font-family: 'gothaprobol' , sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1.2px;
+	position: relative;
 }
 
 .menu__link:before {
   content: "";
-  width: 17px;
-  height: 15px;
-  background: url('./img/feed_icon.png') center center no-repeat;
+  width: 24px;
+  height: 18px;
+  background: url('/img/main_icon.png') center center no-repeat;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 0px;
+  margin-right: 5px;
   position: absolute;
   top: 0;
   left: 0;
 }
+
 
 .menu__link:hover {
   color: #000;
 }
 
 .menu__link:hover:before {
-  background-image: url('./img/feed_icon_hover.png');
+  background-image: url('./img/main_icon_hover.png');
 }
 
 .menu__link--route:before {
-  background-image: url('');
+  background-image: url('./img/./img/feed_icon_hover.png');
 }
 
 .menu__link--route:hover:before {
-  background-image: url('');
+  background-image: url('./img/./img/wallet_icon_hover.png');
 }
 
 
