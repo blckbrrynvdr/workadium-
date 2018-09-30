@@ -22,6 +22,8 @@ ul {
 	font-family: 'gothaprobol' , sans-serif;
 	color: #221f1f;
 	font-size: 49px;
+	margin-top: 10px;
+	margin-bottom: 70px;
 }
 
 .underline {
@@ -99,7 +101,7 @@ a.contacts__phone {
 /* САЙДБАР */
 
 .maincontent__sidebar {
-	width: 125px;
+	width: 130px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -117,36 +119,20 @@ a.contacts__phone {
 	text-transform: uppercase;
 	letter-spacing: 1.2px;
 	position: relative;
+	line-height: 4.5;
+	font-size: 12px;
 }
 
-.menu__link:before {
-  content: "";
-  width: 24px;
-  height: 18px;
-  background: url('/img/main_icon.png') center center no-repeat;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 5px;
-  position: absolute;
-  top: 0;
-  left: 0;
+.menu__icon {
+	display: inline-block;
+	position: relative;
+	height: 15px;
+	margin-right: 17px;
 }
-
 
 .menu__link:hover {
-  color: #000;
-}
-
-.menu__link:hover:before {
-  background-image: url('./img/main_icon_hover.png');
-}
-
-.menu__link--route:before {
-  background-image: url('./img/./img/feed_icon_hover.png');
-}
-
-.menu__link--route:hover:before {
-  background-image: url('./img/./img/wallet_icon_hover.png');
+	color: #000000;
+	text-decoration: underline;
 }
 
 
@@ -154,6 +140,7 @@ a.contacts__phone {
 /* выделение цветом активной страницы в сайдбаре */
 .menu--active-page {
 	color: #000000;
+	text-decoration: underline;
 }
 /* выделение цветом активной страницы в сайдбаре */
 
@@ -163,12 +150,15 @@ a.contacts__phone {
 .feature {
 	font-family: 'gothaprolig' , sans-serif;
 	font-size: 18px;
+	margin-bottom: 95px;
 }
 
 .feature__desc-item {
 	display: inline-block;
 	position: relative;
-	width: 194px;
+	width: 199px;
+	text-align: center;
+	margin-right: 68px;
 }
 
 .feature__desc-icon {
@@ -183,41 +173,89 @@ a.contacts__phone {
 	background-color: #27273e;
 }
 
+
+
 .feature__image {
 	height: 31px;
 }
 
-.feature__desc-heading {
+.feature__desc-title {
 	font-family: 'gothaprobol' , sans-serif;
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 2.6px;
+	line-height: 4.68;
+}
+
+.feature__desc-text {
+	line-height: 1.67;
+}
+
+.feature__desc-list {
+	line-height: 1.67;
+	text-align: left;
+	padding: 0;
 }
 
 .color-dots {
-	color: #cc3366; 
+	color: #cc3366;
+	margin-right: 45px; 
 }
 
 
 /* НОВОСТИ */
 
+.content {
+	margin-bottom: 60px;
+}
+
+.content__item {
+	padding: 0;
+}
+
+.content__component {
+	margin-bottom: 50px;
+}
+
+.content__image {
+	width: 160px;
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+}
+
 .content__image-elem {
 	height: 160px;
 	border-radius: 50%;
+
+}
+
+.content__desc {
+	width: 685px;
+	display: inline-block;
+	position: relative;
 }
 
 .content__date {
 	font-size: 14px;
 	color: #656464;
+	line-height: 1.5;
+	margin: 0px 0px 2px 0px ;
+
 }
 
 .content__desc-title{
 	font-family: 'robotobold', sans-serif;
 	font-size: 18px;
+	line-height: 1.17;
+	margin: 0px 0px 10px 0px ;
 }
 
 .content__text {
 	font-size: 18px;
+	line-height: 1.67;
+	font-family: 'robotolight', sans-serif;
+	margin: 0;
 }
 
 
@@ -226,27 +264,58 @@ a.contacts__phone {
 /* ПАГИНАЦИЯ */
 
 .content__pagination {
+	text-align: center;
 	font-size: 14px;
 	color: #221f1f;
 }
 
-.content__pagination-display {
-	color: #656464;
+.content__pagination-elem {
+	width: 430px;
+	display: inline-block;
+	position: relative;
+}
 
+.content__pagination-display {
+	display: inline-block;
+	position: relative;
+	color: #656464;
 }
 
 .content__news__pagination-prev-next {
+	display: inline-block;
+	position: relative;
 	color: #656464;
 }
 
-.pagination--active {
-	width: 25px;
+.content__pagination-pages {
+	display: inline-block;
+	position: relative;
 	height: 25px;
-	border-radius: 3px;
-	background-color: #27273e;
-	color: #ffffff;
+	padding: 0;
+}
+
+.content__pagination-item {
+	display: inline-block;
+	position: relative;
 
 }
+
+.content__pagination-link {
+	color: #221f1f;
+	font-family: 'robotobold' , sans-serif;
+}
+
+.pagination--active-bgc {
+	width: 18px;
+	height: 18px;
+	border-radius: 3px;
+	background-color: #27273e;
+}
+
+.pagination--active-c {
+	color: #ffffff;
+}
+
 
 /* ФУТЕР */
 
@@ -258,8 +327,42 @@ a.contacts__phone {
 	font-family: 'gothaprolig', sans-serif;
 }
 
+.footer .container {
+	position: relative;
+}
+
 .footer__text {
 	color: #ffffff;
+	width: 270px;
+	position: absolute;
+	top: 14px;
+	left: 0;
+}
+
+.logo__wrapper {
+	display: inline-block;
+	position: absolute;
+	left: 490px;
+	top: 14px;
+}
+
+.contacts-link__wrapper {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 14px;
+}
+
+.contacts-link__list {
+		display: inline-block;
+	position: relative;
+	padding: 0;
+}
+
+.contacts-link__item {
+			display: inline-block;
+	position: relative;
+	margin-right: 10px;
 }
 
 .footer__text-bold {
