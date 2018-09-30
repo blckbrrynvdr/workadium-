@@ -1,4 +1,194 @@
 * {
 	margin: 0;
 	padding: 0;
+
+	font-family: 'robotolight' , sans-serif;
+	color: #221f1f;
+}
+
+.wrapper{
+	width: 1100px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main__title {
+	font-family: 'gothaprobol' , sans-serif;
+	color: #221f1f;
+	font-size: 49px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* -------------ХЭДЕР---------------- */
+.header {
+	height: 76px;
+	background-color: #27273e;
+}
+
+.logo__wrapper {
+	display: inline;
+	position: relative;
+	left: 19px;
+	top: 13px;
+}
+
+.contacts__wrapper {
+	display: inline;
+	position: relative;
+}
+
+
+
+a.contacts__phone {
+	font-family: 'gothaprobol' , sans-serif;
+	color: #ffffff;
+}
+
+.contacts__schedule {
+	font-family: 'opensans-bold', sans-serif ;
+	color:  rgba(236, 30, 121, 0.7);
+	text-decoration: underline;
+}
+
+
+.logo__pic {
+	height: 51px;
+}
+
+
+/* БАННЕР */
+.banner__pic {
+	height: 359px;
+}
+
+/* САЙДБАР */
+
+.menu__link {
+	color: #ec1e79;
+	font-family: 'gothaprobol' , sans-serif;
+	font-weight: bold;
+}
+
+/* выделение цветом активной страницы в сайдбаре */
+.menu--mainpage-active {
+	color: #000000;
+}
+.menu--commentspage-active {
+	color: #000000;
+}
+.menu--pricespage-active {
+	color: #000000;
+}
+/* выделение цветом активной страницы в сайдбаре */
+
+
+/* ОСОБЕННОСТИ */
+
+.feature {
+	font-family: 'gothaprolig' , sans-serif;
+	font-size: 18px;
+}
+
+.feature__desc-elem {
+	display: block;
+}
+
+.feature__desc-icon {
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 320%;
+	position: relative;
+	display: inline-block;
+	background-color: #27273e;
+}
+
+.feature__image {
+	height: 31px;
+}
+
+.feature__desc-heading {
+	font-family: 'gothaprobol' , sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.color-dots {
+	color: #cc3366; 
+}
+
+
+/* НОВОСТИ */
+
+.content__image-elem {
+	height: 160px;
+	border-radius: 50%;
+}
+
+.content__date {
+	font-size: 14px;
+	color: #656464;
+}
+
+.content__desc-title{
+	font-family: 'robotobold', sans-serif;
+	font-size: 18px;
+}
+
+.content__text {
+	font-size: 18px;
+}
+
+
+
+
+/* ПАГИНАЦИЯ */
+
+.content__pagination {
+	font-size: 14px;
+	color: #221f1f;
+}
+
+.content__pagination-display {
+	color: #656464;
+
+}
+
+.content__news__pagination-prev-next {
+	color: #656464;
+}
+
+.pagination--active {
+	width: 25px;
+	height: 25px;
+	border-radius: 3px;
+	background-color: #27273e;
+	color: #ffffff;
+
+}
+
+/* ФУТЕР */
+
+.footer {
+	height: 77px;
+	background-color: #27273e;
+
+	font-size: 14px;
+	font-family: 'gothaprolig', sans-serif;
+}
+
+.footer__text {
+	color: #ffffff;
+}
+
+.footer__text-bold {
+	font-weight: bold;
+	color: #ffffff;
 }
