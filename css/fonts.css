@@ -1,13 +1,10 @@
 
 
 @font-face {
-    font-family: 'robotobold';
-    src: url('../fonts/roboto-bold-webfont.eot');
-    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-bold-webfont.woff') format('woff'),
-         url('../fonts/roboto-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'roboto';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -16,13 +13,10 @@
 
 
 @font-face {
-    font-family: 'robotolight';
-    src: url('../fonts/roboto-light-webfont.eot');
-    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-light-webfont.woff') format('woff'),
-         url('../fonts/roboto-light-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'roboto';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),   
+         url('../fonts/roboto-light-webfont.woff') format('woff') ;   
+    font-weight: 300;
     font-style: normal;
 
 }
@@ -31,13 +25,10 @@
 
 
 @font-face {
-    font-family: 'gothaprobol';
-    src: url('../fonts/gothaprobol.eot');
-    src: url('../fonts/gothaprobol.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/gothaprobol.woff2') format('woff2'),
-         url('../fonts/gothaprobol.woff') format('woff'),
-         url('../fonts/gothaprobol.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'gothapro';
+    src: url('../fonts/gothaprobol.woff2') format('woff2'),
+         url('../fonts/gothaprobol.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -46,13 +37,10 @@
 
 
 @font-face {
-    font-family: 'gothaprolig';
-    src: url('../fonts/gothaprolig.eot');
-    src: url('../fonts/gothaprolig.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/gothaprolig.woff2') format('woff2'),
-         url('../fonts/gothaprolig.woff') format('woff'),
-         url('../fonts/gothaprolig.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'gothapro';
+    src: url('../fonts/gothaprolig.woff2') format('woff2'),
+         url('../fonts/gothaprolig.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
 
 }
@@ -61,14 +49,11 @@
 
 
 @font-face {
-    font-family: 'gothaproligita';
-    src: url('../fonts/gothaproligita.eot');
-    src: url('../fonts/gothaproligita.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/gothaproligita.woff2') format('woff2'),
-         url('../fonts/gothaproligita.woff') format('woff'),
-         url('../fonts/gothaproligita.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'gothapro';
+    src: url('../fonts/gothaproligita.woff2') format('woff2'),
+         url('../fonts/gothaproligita.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
 
 }
 
@@ -76,13 +61,10 @@
 
 
 @font-face {
-    font-family: 'opensans-bold';
-    src: url('../fonts/opensans-bold.eot');
-    src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-bold.woff2') format('woff2'),
-         url('../fonts/opensans-bold.woff') format('woff'),
-         url('../fonts/opensans-bold.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'opensans';
+    src: url('../fonts/opensans-bold.woff2') format('woff2'),
+         url('../fonts/opensans-bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 
 }

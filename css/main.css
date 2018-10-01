@@ -2,7 +2,8 @@ body {
 	margin: 0;
 	padding: 0;
 
-	font-family: 'robotolight' , sans-serif;
+	font-family: 'roboto' , sans-serif;
+	font-weight: 300;
 	color: #221f1f;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -19,7 +20,8 @@ ul {
 }
 
 .main__title {
-	font-family: 'gothaprobol' , sans-serif;
+	font-family: 'gothapro' , sans-serif;
+	font-weight: bold;
 	color: #221f1f;
 	font-size: 49px;
 	margin-top: 10px;
@@ -65,12 +67,14 @@ ul {
 
 
 a.contacts__phone {
-	font-family: 'gothaprobol' , sans-serif;
+	font-family: 'gothapro' , sans-serif;
+	font-weight: bold;
 	color: #ffffff;
 }
 
 .contacts__schedule {
-	font-family: 'opensans-bold', sans-serif ;
+	font-family: 'opensans', sans-serif ;
+	font-weight: bold;
 	color:  rgba(236, 30, 121, 0.7);
 	text-decoration: underline;
 }
@@ -114,7 +118,7 @@ a.contacts__phone {
 
 .menu__link {
 	color: #ec1e79;
-	font-family: 'gothaprobol' , sans-serif;
+	font-family: 'gothapro' , sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1.2px;
@@ -148,7 +152,8 @@ a.contacts__phone {
 /* ОСОБЕННОСТИ */
 
 .feature {
-	font-family: 'gothaprolig' , sans-serif;
+	font-family: 'gothapro' , sans-serif;
+	font-weight: 300;
 	font-size: 18px;
 	margin-bottom: 95px;
 }
@@ -174,13 +179,13 @@ a.contacts__phone {
 }
 
 
-
 .feature__image {
 	height: 31px;
 }
 
 .feature__desc-title {
-	font-family: 'gothaprobol' , sans-serif;
+	font-family: 'gothapro' , sans-serif;
+	font-weight: bold;
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 2.6px;
@@ -245,7 +250,7 @@ a.contacts__phone {
 }
 
 .content__desc-title{
-	font-family: 'robotobold', sans-serif;
+	font-weight: bold;
 	font-size: 18px;
 	line-height: 1.17;
 	margin: 0px 0px 10px 0px ;
@@ -254,7 +259,7 @@ a.contacts__phone {
 .content__text {
 	font-size: 18px;
 	line-height: 1.67;
-	font-family: 'robotolight', sans-serif;
+	font-weight: 300;
 	margin: 0;
 }
 
@@ -267,6 +272,7 @@ a.contacts__phone {
 	text-align: center;
 	font-size: 14px;
 	color: #221f1f;
+	margin-bottom: 70px;
 }
 
 .content__pagination-elem {
@@ -279,12 +285,15 @@ a.contacts__phone {
 	display: inline-block;
 	position: relative;
 	color: #656464;
+	line-height: 1.5;
+	margin-right: 20px;
 }
 
 .content__news__pagination-prev-next {
 	display: inline-block;
 	position: relative;
 	color: #656464;
+	margin-right: 25px;
 }
 
 .content__pagination-pages {
@@ -297,12 +306,15 @@ a.contacts__phone {
 .content__pagination-item {
 	display: inline-block;
 	position: relative;
+	margin-right: 7px;
+	margin-left: 7px;
 
 }
 
 .content__pagination-link {
 	color: #221f1f;
-	font-family: 'robotobold' , sans-serif;
+	font-weight: bold;
+	line-height: 1.5;
 }
 
 .pagination--active-bgc {
@@ -324,7 +336,8 @@ a.contacts__phone {
 	background-color: #27273e;
 
 	font-size: 14px;
-	font-family: 'gothaprolig', sans-serif;
+	font-family: 'gothapro', sans-serif;
+	font-weight: 300;
 }
 
 .footer .container {
@@ -354,13 +367,13 @@ a.contacts__phone {
 }
 
 .contacts-link__list {
-		display: inline-block;
+	display: inline-block;
 	position: relative;
 	padding: 0;
 }
 
 .contacts-link__item {
-			display: inline-block;
+	display: inline-block;
 	position: relative;
 	margin-right: 10px;
 }
