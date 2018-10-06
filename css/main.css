@@ -319,14 +319,14 @@ a.contacts__phone {
 
 .feature__desc-elem {
 	display: flex;
-	justify-content: space-around;
+/* 	justify-content: space-around; */
 }
 
 .feature__desc-item {
 	width: 199px;
 	text-align: center;
-	margin-right: 36px;
-	margin-left: 25px;
+	margin-right: 45px;
+	margin-left: 29px;
 }
 
 .feature__desc-icon {
