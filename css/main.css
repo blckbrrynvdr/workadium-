@@ -31,8 +31,7 @@ p {
 	font-weight: bold;
 	color: #221f1f;
 	font-size: 49px;
-	margin-top: 10px;
-	margin-bottom: 55px;
+	margin: 0;
 }
 
 .underline {
