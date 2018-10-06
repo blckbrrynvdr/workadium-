@@ -745,6 +745,10 @@ a.contacts__phone {
 	margin-bottom: 0px;
 }
 
+.prices__title-main {
+	margin-bottom: 43px;
+}
+
 .prises__item {
 	display: flex;
 	justify-content: space-between;
@@ -813,6 +817,14 @@ a.contacts__phone {
 
 
 /* ПАРТНЁРЫ */
+
+.partners {
+	margin-bottom: 60px;
+}
+
+.partners__title{
+	margin-bottom: 42px;
+}
 
 .partners__container {
 	width: 700px;
