@@ -97,7 +97,7 @@ a.contacts__phone {
 /* БАННЕР */
 
 .banner {
-	margin-bottom: 45px;
+	margin-bottom: 56px;
 	text-align: center;
 }
 
@@ -129,7 +129,8 @@ a.contacts__phone {
 .menu__list {
 	display: flex;
 	flex-direction: column;
-	margin-left: 22px;
+	margin-left: 19px;
+	margin-top: -11px;
 }
 
 .menu__item {
@@ -313,7 +314,11 @@ a.contacts__phone {
 	font-family: 'gothapro' , sans-serif;
 	font-weight: 300;
 	font-size: 18px;
-	margin-bottom: 63px;
+	margin-bottom: 74px;
+}
+
+.feature__title {
+	margin-bottom: 54px;
 }
 
 .feature__desc-elem {
@@ -385,6 +390,10 @@ a.contacts__phone {
 	margin-bottom: 53px;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.content__title {
+	margin-bottom: 55px;
 }
 
 .content__item {
