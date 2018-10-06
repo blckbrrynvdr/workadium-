@@ -122,7 +122,7 @@ a.contacts__phone {
 /* САЙДБАР */
 
 .sidebar {
-	width: 130px;
+	width: 120px;
 
 	display: flex;
 }
@@ -314,7 +314,7 @@ a.contacts__phone {
 	font-family: 'gothapro' , sans-serif;
 	font-weight: 300;
 	font-size: 18px;
-	margin-bottom: 95px;
+	margin-bottom: 63px;
 }
 
 .feature__desc-elem {
@@ -325,7 +325,8 @@ a.contacts__phone {
 .feature__desc-item {
 	width: 199px;
 	text-align: center;
-	margin-right: 68px;
+	margin-right: 36px;
+	margin-left: 25px;
 }
 
 .feature__desc-icon {
@@ -337,6 +338,7 @@ a.contacts__phone {
 	justify-content: center;
 	align-items: center;
 	background-color: #27273e;
+	margin-bottom: 13px;
 }
 
 
@@ -352,6 +354,7 @@ a.contacts__phone {
 	text-transform: uppercase;
 	letter-spacing: 2.6px;
 	line-height: 4.68;
+	margin: 0;
 }
 
 .feature__desc-text {
@@ -359,9 +362,10 @@ a.contacts__phone {
 }
 
 .feature__desc-list {
-	line-height: 1.67;
+	line-height: 1.9;
 	text-align: left;
 	padding: 0;
+
 }
 
 .feature__desc-list-item:before {
@@ -379,7 +383,7 @@ a.contacts__phone {
 /* НОВОСТИ */
 
 .content {
-	margin-bottom: 60px;
+	margin-bottom: 53px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -393,8 +397,9 @@ a.contacts__phone {
 
 .content__component {
 	border-bottom: 2px solid #f5f5f5;
-	margin-bottom: 30px;
-	padding-bottom: 30px;
+	margin-bottom: 33px;
+	padding-bottom: 7px;
+	padding-top: 13px;
 	display: flex;
 }
 
@@ -455,21 +460,21 @@ a.contacts__phone {
 	text-align: center;
 	font-size: 14px;
 	color: #221f1f;
-	margin-bottom: 70px;
+	margin-bottom: 65px;
 }
 
 .pagination-elem {
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .pagination-display {
-
 	color: #656464;
 	line-height: 1.5;
-	margin-right: 20px;
+	margin-right: 21px;
+	margin-left: 29px;
+
 }
 
 .pagination-prev-next {
@@ -486,14 +491,15 @@ a.contacts__phone {
 	-ms-align-items: center;
 	align-items: center;
 	padding: 0;
+	margin-left: 3px;
 }
 
 .pagination-item {
 	width: 18px;
 	height: 18px;
 
-	margin-right: 5px;
-	margin-left: 5px;
+	margin-right: 4px;
+	margin-left: 4px;
 
 }
 
@@ -857,7 +863,9 @@ a.contacts__phone {
 	margin-left: 20px;
 }
 
-
+.footer .logo {
+	margin-right: 96px;
+}
 
 .contacts-social {
 	margin-bottom: 10px;
@@ -903,6 +911,11 @@ a.contacts__phone {
 .footer__text-bold {
 	font-weight: bold;
 	color: #ffffff;
-	padding-top: 10px;
+	padding-top: 8px;
 	margin-bottom: 9px;
+	font-size: 14px;
+}
+
+.contacts-social__list {
+	padding-left: 4px;
 }
