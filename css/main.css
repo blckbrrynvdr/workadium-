@@ -69,6 +69,69 @@ flex-wrap: wrap; */
 	align-items: center;
 }
 
+.intro__block {
+
+	animation-fill-mode: forwards;
+}
+
+.jackInTheBox {
+  -webkit-animation-name: jackInTheBox;
+  animation-name: jackInTheBox;
+  }
+
+@-webkit-keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
 .logo--intro {
 	text-align: center;
 	width: 100%;
@@ -119,7 +182,7 @@ flex-wrap: wrap; */
 
 .header .container {
 	min-height: 76px;
-	overflow: hidden;
+	/* overflow: hidden; */
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -146,7 +209,11 @@ a.contacts__phone {
 	font-size: 21px;
 }
 
-.contacts__schedule {
+.contacts__time{
+	position: relative;
+}
+
+.contacts__time-link {
 	font-family: 'opensans', sans-serif ;
 	font-weight: bold;
 	color:  rgba(236, 30, 121, 0.7);
@@ -154,11 +221,74 @@ a.contacts__phone {
 	font-size: 14px;
 }
 
+.contacts__time:hover .contacts__schedule {
+	left: 0;
+	opacity: 1;
+	transition: opacity .4s;
+}
+
+.contacts__schedule {
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
+	width: 100%;
+	height: 70px;
+	top: 100%;
+	left: -9999px;
+	transition: opacity .4s;
+	opacity: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 23px;
+	border-radius: 3px;
+}
+
+.contacts__schedule:before {
+	content: '';
+	display: flex;
+	height: 30px;
+	left: 0;
+	right: 0;
+	top: -25px;
+	position: absolute;
+}
+
+.romb:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+/* 	box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55); */
+	transform: rotate(45deg);
+	top: -10px;
+	right: 4px;
+	position: absolute;
+	background: #fff;
+} 
+
+.schedule__time {
+	color: #ec1e79;
+	font-family: 'gothapro',sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+
+}
+
+.schedule__nowork {
+	font-weight: 300;
+	
+		line-height: 18px;
+}
+
+.schedule__text {
+	text-align: left;
+}
 
 .logo__pic {
 	height: 51px;
 }
-
 
 /* БАННЕР */
 
